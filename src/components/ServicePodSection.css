@@ -1,0 +1,31 @@
+.ServicePod {
+  width: calc(50% - 8rem);
+  margin: 2rem 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.ServicePod--Icon {
+  margin-right: 2rem;
+  max-width: 70px;
+  max-height: 70px;
+  display: block;
+}
+
+.Service--Title {
+  font-weight: 600;
+}
+
+.ServicePod--Description {
+}
+
+@media screen and (max-width: 1000px) {
+  .ServicePod {
+    width: 75%;
+    margin: 2rem 0;
+    display: block;
+  }
+  .ServicePod--Icon {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,87 @@
+.About {
+}
+
+.welcome--info {
+  padding: 4rem;
+  width: 55%;
+}
+
+.welcome--image {
+  width: 45%;
+  height: 550px;
+  position: relative;
+}
+
+@media screen and (max-width: 750px) {
+  .welcome--info,
+  .welcome--image {
+    width: 100%;
+  }
+}
+.welcome-title {
+  font-size: 4rem;
+  margin: 0 0 2rem 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.welcome--info blockquote {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.welcome--info blockquote p {
+  margin: 0 0 1.5rem 0;
+}
+
+@media screen and (max-width: 750px) {
+  .welcome--image {
+    width: 100%;
+    height: 350px;
+    position: relative;
+  }
+  .welcome--info blockquote {
+    font-size: 2rem;
+  }
+}
+
+.workoutTitle h2 {
+  width: 80%;
+  font-size: 4rem;
+  margin: 0 auto 2rem auto;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.AboutButtons--links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.AboutButtons--links .button {
+  margin: 0 1rem;
+}
+
+.About-PodsGrid--pod {
+  width: calc(33.33% - 2rem);
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 750px) {
+  .About-PodsGrid--pod {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+}
+
+.About-PodsGrid--pod .BackgroundImage {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin: 0 0 2rem 0;
+}
