@@ -51,7 +51,7 @@ const getImageSrc = (path, sizeRequested) => {
 
   const { filename, extname } = parseFilename(path)
   const pathname = encodeURI(filename.replace(outputDir, resizedDir))
-  if (imgixUrl) return getImgixUrl({ path, size })
+  // if (imgixUrl) return getImgixUrl({ path, size })
   return `${pathname}.${size}.${extname}`
 }
 
