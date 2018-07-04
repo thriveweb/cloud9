@@ -1,5 +1,5 @@
 ---
-welcomeImage: /images/uploads/0w5a2608.11small.jpg
+welcomeImage: /images/uploads/background.jpg
 title: Energize Your Life
 buttons:
   - label: Book a class
