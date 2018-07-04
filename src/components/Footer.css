@@ -1,92 +1,91 @@
 .social-links .Flex {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  flex-direction: row;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	flex-direction: row;
 }
 
 .Footer {
-  padding: 4rem 0 1rem 0;
-  background: var(--secondary) url(/images/footer-bolt.svg) left center
-    no-repeat;
+	padding: 4rem 0 1rem 0;
+	background: black;
 }
 
 .mainFooter {
-  padding: 4rem 0 0 0;
-  color: white;
+	padding: 4rem 0 0 0;
+	color: white;
 }
 .mainFooter img {
-  max-width: 280px;
-  height: auto;
+	max-width: 280px;
+	height: auto;
 }
 
 .Footer .Logo {
-  width: 8rem;
-  height: 8rem;
+	width: 8rem;
+	height: 8rem;
 }
 
 .Footer h3 {
-  text-transform: uppercase;
-  margin: 0 0 2rem 0;
+	text-transform: uppercase;
+	margin: 0 0 2rem 0;
 }
 
 .Footer a {
-  color: inherit;
-  font-weight: 400;
+	color: inherit;
+	font-weight: 400;
 }
 
 .Footer a:hover {
-  color: var(--primary);
+	color: var(--primary);
 }
 
 .Footer .halfs {
-  width: 60%;
+	width: 60%;
 }
 
 .Footer .halfs .pods {
-  width: 45%;
+	width: 45%;
 }
 
 .Footer .halfs .pods .NavLink {
-  padding: 0 0 0.5rem 0;
-  display: block;
-  text-align: left;
-  font-size: 1.5rem;
+	padding: 0 0 0.5rem 0;
+	display: block;
+	text-align: left;
+	font-size: 1.5rem;
 }
 
 .Footer--Copyright.container {
-  padding: 2rem 0 0 0;
-  margin: 2rem auto;
-  color: var(--midGrey);
+	padding: 2rem 0 0 0;
+	margin: 2rem auto;
+	color: var(--midGrey);
 }
 
 @media screen and (max-width: 750px) {
-  .Footer {
-    padding: 0 0 4rem 0;
-    text-align: center;
-  }
-  .Footer .halfs {
-    width: 100%;
-    text-align: center;
-    margin: 2rem 0;
-  }
-  .Footer .halfs .pods {
-    width: 100%;
-    margin: 1rem 0 0 0;
-  }
-  .Footer .halfs .pods .NavLink {
-    text-align: center;
-  }
-  .Footer--Copyright.container {
-    padding: 1rem 0 0 0;
-    margin: 0 auto;
-  }
-  .Footer--Copyright.container .NavLink {
-    padding: 1rem 0 0 0;
-    font-size: 1rem;
-  }
+	.Footer {
+		padding: 0 0 4rem 0;
+		text-align: center;
+	}
+	.Footer .halfs {
+		width: 100%;
+		text-align: center;
+		margin: 2rem 0;
+	}
+	.Footer .halfs .pods {
+		width: 100%;
+		margin: 1rem 0 0 0;
+	}
+	.Footer .halfs .pods .NavLink {
+		text-align: center;
+	}
+	.Footer--Copyright.container {
+		padding: 1rem 0 0 0;
+		margin: 0 auto;
+	}
+	.Footer--Copyright.container .NavLink {
+		padding: 1rem 0 0 0;
+		font-size: 1rem;
+	}
 }
 
 .renderlinks {
-  display: none;
+	display: none;
 }

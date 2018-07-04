@@ -1,21 +1,23 @@
 .Logo {
-  display: inherit;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 250px;
-  height: auto;
+	display: inherit;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 250px;
+	height: auto;
 }
 
 .Logo svg {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	padding-top: 0.5rem;
 }
 
 @media screen and (max-width: 500px) {
-  .Logo {
-    max-width: 150px;
-    position: relative;
-    top: -0.5rem;
-  }
+	.Logo {
+		max-width: 150px;
+		position: relative;
+		top: -0.5rem;
+	}
 }
