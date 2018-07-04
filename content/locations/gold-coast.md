@@ -17,7 +17,7 @@ facebookURL: 'https://www.facebook.com/poweruprevolution/'
 linkedinURL: ''
 instagramURL: 'http://instagram.com'
 phone: ''
-email: info@poweruprevolution.com
+email: info@cloud9altitudetraining.netlify.com
 staff: []
 bannerSectionImage: /images/uploads/0w5a2773sml.jpg
 bannerSectionTitle: Join the revolution

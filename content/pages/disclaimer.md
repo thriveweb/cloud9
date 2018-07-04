@@ -27,7 +27,7 @@ content: >-
   same. The Power Up website allows users to receive information about Power Up,
   as well as book, cancel, and pay for services and products offered at Power Up
   facilities. The services offered by Power Up include but are not limited to
-  the www.poweruprevolution.com website, which is hosted in Australia.
+  the www.cloud9altitudetraining.netlify.com website, which is hosted in Australia.
 
 
   PRIVACY STATEMENT
