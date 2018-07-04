@@ -1,7 +1,7 @@
 const sizes = [10, 300, 600, 1200, 1800]
 const outputDir = '/images/uploads/'
 const resizedDir = '/images/uploads/resized/'
-const imgixUrl = 'https://powerup.imgix.net' // imgix web folder domain e.g. https://example.imgix.net (no trailing slash)
+const imgixUrl = null //'https://powerup.imgix.net' // imgix web folder domain e.g. https://example.imgix.net (no trailing slash)
 
 const getImgixUrl = ({ path, size }) =>
   `${imgixUrl}${encodeURI(path)}?w=${size}&fit=max&auto=compress`
@@ -51,7 +51,7 @@ const getImageSrc = (path, sizeRequested) => {
 
   const { filename, extname } = parseFilename(path)
   const pathname = encodeURI(filename.replace(outputDir, resizedDir))
-  // if (imgixUrl) return getImgixUrl({ path, size })
+  if (imgixUrl) return getImgixUrl({ path, size })
   return `${pathname}.${size}.${extname}`
 }
 
