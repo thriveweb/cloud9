@@ -1,28 +1,14 @@
 ---
 welcomeImage: /images/uploads/background.jpg
-title: Energize Your Life
+title: Let's Get High!
 buttons:
   - label: Book a class
     link: book now
-classesSectionTitle: Power Up Classes
-pods:
-  - backgroundImage: /images/uploads/0w5a2608.11small.jpg
-    title: 'PowerUP Fusion '
-    url: /book-now/
-  - backgroundImage: /images/uploads/0w5a2616sml.jpg
-    title: PowerUP Cardio
-    url: /book-now/
-  - backgroundImage: /images/uploads/0w5a2624sml.jpg
-    title: PowerUP Strength
-    url: /book-now/
-servicesSectionTitle: Join the Revolution
-servicesSubtitle: TRULY VERSATILE TRAINING
-servicesContent: >-
-  Power Up is a revolutionary small group training program with unprecedented
-  total body functional strength and conditioning workout options that cater for
-  everyone. You will leave drenched in sweat, motivated, and ready to take on
-  anything after our cutting edge classes. Raise your standards and get ready to
-  TAKE YOUR TRAINING TO NEW HEIGHTS and ENERGIZE YOUR LIFE!
+classesSectionTitle: Nothing for now.
+pods: []
+servicesSectionTitle: Lets Get High!
+servicesSubtitle: Take your training to new heights
+servicesContent: "Simulated altitude training sessions allow you to\r workout with much less stress on your body, but\r at the same time enhances the effectiveness of\r any workout, whilst triggering a wide variety of\r physiological responses and changes in your body."
 trainingPods:
   - backgroundImage: /images/uploads/workout1.png
   - backgroundImage: /images/uploads/workout2.png
