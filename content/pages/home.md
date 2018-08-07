@@ -1,5 +1,5 @@
 ---
-welcomeImage: /images/uploads/could-with-points.jpg
+welcomeImage: /images/uploads/background.jpg
 title: Let's Get High!
 buttons:
   - label: Book a class
