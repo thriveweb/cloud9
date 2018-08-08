@@ -8,7 +8,11 @@ classesSectionTitle: Nothing for now.
 pods: []
 servicesSectionTitle: Lets Get High!
 servicesSubtitle: Take your training to new heights
-servicesContent: "Simulated altitude training sessions allow you to\r workout with much less stress on your body, but\r at the same time enhances the effectiveness of\r any workout, whilst triggering a wide variety of\r physiological responses and changes in your body."
+servicesContent: >-
+  Simulated altitude training sessions allow you to workout with much less
+  stress on your body, but at the same time enhances the effectiveness of any
+  workout, whilst triggering a wide variety of physiological responses and
+  changes in your body.
 trainingPods:
   - backgroundImage: /images/uploads/workout1.png
   - backgroundImage: /images/uploads/workout2.png
