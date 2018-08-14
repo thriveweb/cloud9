@@ -19,8 +19,10 @@ class Nav extends React.Component {
 	handleScroll = e => {
 	  if (window.scrollY < 200) {
 	    document.body.classList.remove('scrolled')
+	    console.log('remove')
 	  } else {
 	    document.body.classList.add('scrolled')
+	    console.log('add')
 	  }
 	}
 
@@ -33,12 +35,12 @@ class Nav extends React.Component {
 	  const locations = this.props.locations
 	  const handleNavPopupOpen = this.props.handleNavPopupOpen
 	  return (
-  <nav
-	      className={`Nav ${isHome ? 'isHome' : ''}`}
-  ref={element => {
+	    <nav
+    className={`Nav ${isHome ? 'isHome' : ''}`}
+    ref={element => {
 	        this.element = element
 	      }}>
-  <div className='container Nav--OuterWrap'>
+    <div className='container Nav--OuterWrap'>
 	        <div className='Flex alignCenter justifyBetween relative'>
 	          <Link className='Logo' style={{ color: 'currentColor' }} to='/'>
     <Logo />
@@ -46,13 +48,13 @@ class Nav extends React.Component {
 	          <div className='nav Flex alignCenter justifyStart mainNav'>
     <NavLink to='/about/' exact>
 								About
-</NavLink>
-    <div className='NavLink--DropDown NavLink--Parent'>
-    <NavLink to='/locations/' exact>
+	            </NavLink>
+	            <div className='NavLink--DropDown NavLink--Parent'>
+	              <NavLink to='/locations/' exact>
 									Locations
-	              </NavLink>
+      </NavLink>
 	              <div className='NavLink--Children'>
-    {_sortBy(locations, ['order']).map(locationPod => (
+        {_sortBy(locations, ['order']).map(locationPod => (
   <NavLink
   key={_kebabCase(locationPod.title)}
   to={`/locations/${_kebabCase(locationPod.title)}/`}
@@ -60,27 +62,27 @@ class Nav extends React.Component {
 	                    {locationPod.title}
 	                  </NavLink>
 	                ))}
+      </div>
   </div>
-	            </div>
     <NavLink to='/benefits/' exact>
 								Benefits
-  </NavLink>
-    <NavLink to='/membership/' exact>
+	            </NavLink>
+	            <NavLink to='/membership/' exact>
 								Membership
-</NavLink>
+  </NavLink>
     <NavLink to='/contact/' exact>
 								Contact
 	            </NavLink>
   </div>
-    </div>
+      </div>
   <button
 	          className='Nav--MenuButton NavLink'
-      onClick={handleNavPopupOpen}
-      aria-label='Menu Button'>
-      <MenuSVG />
-    </button>
+  onClick={handleNavPopupOpen}
+  aria-label='Menu Button'>
+  <MenuSVG />
+	        </button>
 	      </div>
-	    </nav>
+  </nav>
 	  )
 	}
 }

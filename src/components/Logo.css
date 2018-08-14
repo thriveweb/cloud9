@@ -10,14 +10,6 @@
 .Logo svg {
 	margin: 0;
 	padding: 0;
-	width: 150px;
+	width: 115px;
 	padding-top: 0.5rem;
-}
-
-@media screen and (max-width: 500px) {
-	.Logo {
-		max-width: 150px;
-		position: relative;
-		top: -0.5rem;
-	}
 }
