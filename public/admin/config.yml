@@ -91,23 +91,6 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
                   - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-      - file: "content/pages/bookNow.md"
-        label: "Book Now Page"
-        name: "booknow-page"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Banner Image, name: bannerImage, widget: image}
-          - {label: Content, name: content, widget: markdown}
-          - label: "Meta"
-            required: false
-            name: "meta"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-              - {label: Noindex, name: noindex, widget: boolean, required: false}
-
       - file: "content/pages/contact.md"
         label: "Contact Page"
         name: "contact-page"
@@ -246,23 +229,6 @@ collections: # A list of collections the CMS should be able to edit
       - file: "content/pages/register.md"
         label: "Register Page"
         name: "register-page"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Banner Image, name: bannerImage, widget: image}
-          - {label: Content, name: content, widget: markdown}
-          - label: "Meta"
-            required: false
-            name: "meta"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-              - {label: Noindex, name: noindex, widget: boolean, required: false}
-
-      - file: "content/pages/schedule.md"
-        label: "Schedule Page"
-        name: "schedule-page"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Banner Image, name: bannerImage, widget: image}
