@@ -36,8 +36,7 @@ export default ({ page, services }) => (
           {page.trainingPods.map((pod, index) => (
             <div
               key={index + pod.backgroundImage}
-              className='TrainingPods--pod'
-            >
+              className='TrainingPods--pod'>
               <BackgroundImage src={pod.backgroundImage} contain />
             </div>
           ))}
@@ -45,7 +44,7 @@ export default ({ page, services }) => (
       </div>
     </section>
 
-    <section className='section thin welcome'>
+    {/* <section className='section thin welcome'>
       <div className='container Flex alignCenter justifyBettwen About-PodsGrid relative'>
         {page.pods.map((pod, index) => (
           <div key={index + pod.title} className='About-PodsGrid--pod relative'>
@@ -55,7 +54,7 @@ export default ({ page, services }) => (
           </div>
         ))}
       </div>
-    </section>
+    </section> */}
     {/*
     {services && <ServicePodSection services={services} />}
 
