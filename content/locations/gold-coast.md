@@ -27,7 +27,6 @@ bannerSectionButtons:
   - label: See schedule
     link: schedule
   - label: Package options
-    link: Class Packages
+    link: Benefits
 order: '1'
 ---
-

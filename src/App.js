@@ -163,10 +163,10 @@ class App extends Component {
 	          })}
 
         <RouteWithMeta
-  path='/class-packages/'
+  path='/benefits/'
 	            exact
 	            component={Default}
-  page={this.getDocument('pages', 'classPackages')}
+  page={this.getDocument('pages', 'benefits')}
 	          />
         <RouteWithMeta
   path='/account/'

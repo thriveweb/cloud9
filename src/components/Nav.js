@@ -62,8 +62,8 @@ class Nav extends React.Component {
 	                ))}
   </div>
 	            </div>
-	            <NavLink to='/class-packages/' exact>
-								Class Packages
+	            <NavLink to='/benefits/' exact>
+								Benefits
 	            </NavLink>
 	            <NavLink to='/contact/' exact>
 								Contact

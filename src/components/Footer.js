@@ -15,8 +15,7 @@ export default ({ globalSettings, ...props }) => (
             target='_blank'
             to={`https://twitter.com/${
               globalSettings.socialMediaCard.twitterSiteAccount
-            }/`}
-          >
+            }/`}>
             <img src='/images/twitter.svg' alt='twitter' />
           </Link>
         )}
@@ -33,8 +32,7 @@ export default ({ globalSettings, ...props }) => (
         {globalSettings.socialMediaCard.instagramURL && (
           <Link
             target='_blank'
-            to={globalSettings.socialMediaCard.instagramURL}
-          >
+            to={globalSettings.socialMediaCard.instagramURL}>
             <img src='/images/instagram.svg' alt='instagram' />
           </Link>
         )}
@@ -78,14 +76,14 @@ export default ({ globalSettings, ...props }) => (
             <h3>Info</h3>
 
             <NavLink to={`/about/`} exact>
-              How It Works
+							How It Works
             </NavLink>
 
             <NavLink to={`/locations/`} exact>
-              Studio Locations
+							Studio Locations
             </NavLink>
-            <NavLink to={`/class-packages/`} exact>
-              Class Packages
+            <NavLink to={`/benefits/`} exact>
+							Benefits
             </NavLink>
           </div>
         </div>
@@ -99,10 +97,10 @@ export default ({ globalSettings, ...props }) => (
         </div>
         <div className='Flex alignCenter justifyBetween flexWrap'>
           <NavLink to={`/faq/`} exact>
-            FAQ
+						FAQ
           </NavLink>
           <NavLink to={`/disclaimer/`} exact>
-            Disclaimer
+						Disclaimer
           </NavLink>
         </div>
       </div>
