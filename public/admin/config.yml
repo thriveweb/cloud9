@@ -124,9 +124,26 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-      - file: "content/pages/classPackages.md"
-        label: "Class Packages Page"
-        name: "classpackages-page"
+      - file: "content/pages/benefits.md"
+        label: "Benefits Page"
+        name: "benefits-page"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Banner Image, name: bannerImage, widget: image}
+          - {label: Content, name: content, widget: markdown}
+          - label: "Meta"
+            required: false
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
+              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
+              - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+      - file: "content/pages/membership.md"
+        label: "Membership Page"
+        name: "membership-page"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Banner Image, name: bannerImage, widget: image}

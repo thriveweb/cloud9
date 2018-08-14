@@ -99,20 +99,20 @@ class App extends Component {
   {/* <AOS /> */}
   <ServiceWorkerNotifications reloadOnUpdate />
   <Helmet
-        defaultTitle={siteTitle}
-	          titleTemplate={`${siteTitle} | %s`}
+  defaultTitle={siteTitle}
+  titleTemplate={`${siteTitle} | %s`}
 	        />
-	        <Meta
+  <Meta
         headerScripts={headerScripts}
 	          absoluteImageUrl={
 	            socialMediaCard &&
 							socialMediaCard.image &&
 							siteUrl + socialMediaCard.image
 	          }
-        twitterCreatorAccount={
+	          twitterCreatorAccount={
 	            socialMediaCard && socialMediaCard.twitterCreatorAccount
 	          }
-	          twitterSiteAccount={
+        twitterSiteAccount={
 	            socialMediaCard && socialMediaCard.twitterSiteAccount
 	          }
 	        />
@@ -121,112 +121,118 @@ class App extends Component {
         locations={locations}
         handleNavPopupOpen={this.handleNavPopupOpen}
 	        />
-  <NavPopup
-  locations={services}
-  active={this.state.navPopup}
+	        <NavPopup
+	          locations={services}
+        active={this.state.navPopup}
 	          handleClose={this.handleNavPopupClose}
 	        />
 	        <Switch>
 	          <RouteWithMeta
-    path='/'
-    exact
-	            component={Home}
-    page={this.getDocument('pages', 'home')}
-    locations={this.getDocument('pages', 'locations')}
+      path='/'
+	            exact
+      component={Home}
+      page={this.getDocument('pages', 'home')}
+	            locations={this.getDocument('pages', 'locations')}
 	            services={services}
 	          />
-	          <RouteWithMeta
+        <RouteWithMeta
 	            path='/about/'
-    exact
-    component={About}
-    page={this.getDocument('pages', 'about')}
-    services={services}
+	            exact
+  component={About}
+	            page={this.getDocument('pages', 'about')}
+  services={services}
 	          />
         <RouteWithMeta
-  path='/locations/'
-  exact
-  component={Locations}
+      path='/locations/'
+	            exact
+      component={Locations}
 	            page={this.getDocument('pages', 'locations')}
 	          />
 
         {locations.map((location, index) => {
 	            const path = slugify(`/locations/${location.title}`)
 	            return (
-	              <RouteWithMeta
-    key={path}
+  <RouteWithMeta
+  key={path}
 	                path={path}
-	                exact
-    component={SingleLocation}
-    singleLocation={location}
+  exact
+  component={SingleLocation}
+	                singleLocation={location}
 	              />
 	            )
 	          })}
 
         <RouteWithMeta
-  path='/benefits/'
-	            exact
+      path='/benefits/'
+      exact
 	            component={Default}
-  page={this.getDocument('pages', 'benefits')}
+      page={this.getDocument('pages', 'benefits')}
+	          />
+        <RouteWithMeta
+  path='/membership/'
+  exact
+	            component={Default}
+	            page={this.getDocument('pages', 'membership')}
 	          />
         <RouteWithMeta
   path='/account/'
 	            exact
-	            component={Default}
-  page={this.getDocument('pages', 'account')}
+  component={Default}
+	            page={this.getDocument('pages', 'account')}
+	          />
+        <RouteWithMeta
+	            path='/checkin/'
+	            exact
+  component={Default}
+  page={this.getDocument('pages', 'checkin')}
 	          />
 	          <RouteWithMeta
-    path='/checkin/'
-	            exact
-    component={Default}
-	            page={this.getDocument('pages', 'checkin')}
-	          />
-        <RouteWithMeta
 	            path='/classes/'
-    exact
-	            component={Default}
-	            page={this.getDocument('pages', 'classes')}
+      exact
+      component={Default}
+      page={this.getDocument('pages', 'classes')}
 	          />
-        <RouteWithMeta
+	          <RouteWithMeta
 	            path='/instructor/'
-  exact
-  component={Default}
+      exact
+      component={Default}
 	            page={this.getDocument('pages', 'instructor')}
 	          />
         <RouteWithMeta
-  path='/pricing/'
+      path='/pricing/'
 	            exact
-  component={Default}
-  page={this.getDocument('pages', 'pricing')}
+	            component={Default}
+      page={this.getDocument('pages', 'pricing')}
 	          />
-	          <RouteWithMeta
-	            path='/register/'
-    exact
-    component={Default}
+        <RouteWithMeta
+  path='/register/'
+	            exact
+	            component={Default}
 	            page={this.getDocument('pages', 'register')}
 	          />
 	          <RouteWithMeta
-    path='/schedule/'
-    exact
-    component={Default}
-	            page={this.getDocument('pages', 'schedule')}
+      path='/schedule/'
+      exact
+      component={Default}
+      page={this.getDocument('pages', 'schedule')}
 	          />
-        <RouteWithMeta
-	            path='/contact/'
-  exact
+	          <RouteWithMeta
+      path='/contact/'
+	            exact
 	            component={Contact}
-  page={this.getDocument('pages', 'contact')}
-  globalSettings={globalSettings}
-  siteTitle={siteTitle}
-  locations={locations}
+	            page={this.getDocument('pages', 'contact')}
+      globalSettings={globalSettings}
+      siteTitle={siteTitle}
+	            locations={locations}
 	          />
 	          <RouteWithMeta
 	            path='/faq/'
-	            exact
+      exact
 	            component={Faq}
-	            page={this.getDocument('pages', 'faq')}
+      page={this.getDocument('pages', 'faq')}
 	          />
         <RouteWithMeta
-  path='/disclaimer/'
+	            path='/disclaimer/'
   exact
   component={Default}
   page={this.getDocument('pages', 'disclaimer')}
@@ -238,7 +244,7 @@ class App extends Component {
   page={this.getDocument('pages', 'disclaimer')}
 	          />
         <Route render={() => <NoMatch siteUrl={siteUrl} />} />
-      </Switch>
+	        </Switch>
   <Footer globalSettings={globalSettings} />
 	      </div>
   </Router>

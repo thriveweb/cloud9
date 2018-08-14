@@ -85,6 +85,9 @@ export default ({ globalSettings, ...props }) => (
             <NavLink to={`/benefits/`} exact>
 							Benefits
             </NavLink>
+            <NavLink to={`/membership/`} exact>
+							Membership
+            </NavLink>
           </div>
         </div>
       </div>

@@ -34,7 +34,7 @@ class Nav extends React.Component {
 	  const handleNavPopupOpen = this.props.handleNavPopupOpen
 	  return (
   <nav
-  className={`Nav ${isHome ? 'isHome' : ''}`}
+	      className={`Nav ${isHome ? 'isHome' : ''}`}
   ref={element => {
 	        this.element = element
 	      }}>
@@ -46,36 +46,39 @@ class Nav extends React.Component {
 	          <div className='nav Flex alignCenter justifyStart mainNav'>
     <NavLink to='/about/' exact>
 								About
-	            </NavLink>
-	            <div className='NavLink--DropDown NavLink--Parent'>
-	              <NavLink to='/locations/' exact>
+</NavLink>
+    <div className='NavLink--DropDown NavLink--Parent'>
+    <NavLink to='/locations/' exact>
 									Locations
-  </NavLink>
+	              </NavLink>
 	              <div className='NavLink--Children'>
     {_sortBy(locations, ['order']).map(locationPod => (
-	                  <NavLink
-	                    key={_kebabCase(locationPod.title)}
-      to={`/locations/${_kebabCase(locationPod.title)}/`}
-	                    exact>
-      {locationPod.title}
+  <NavLink
+  key={_kebabCase(locationPod.title)}
+  to={`/locations/${_kebabCase(locationPod.title)}/`}
+  exact>
+	                    {locationPod.title}
 	                  </NavLink>
 	                ))}
   </div>
 	            </div>
-	            <NavLink to='/benefits/' exact>
+    <NavLink to='/benefits/' exact>
 								Benefits
-	            </NavLink>
-	            <NavLink to='/contact/' exact>
+  </NavLink>
+    <NavLink to='/membership/' exact>
+								Membership
+</NavLink>
+    <NavLink to='/contact/' exact>
 								Contact
 	            </NavLink>
   </div>
     </div>
   <button
-  className='Nav--MenuButton NavLink'
-	          onClick={handleNavPopupOpen}
-  aria-label='Menu Button'>
-  <MenuSVG />
-	        </button>
+	          className='Nav--MenuButton NavLink'
+      onClick={handleNavPopupOpen}
+      aria-label='Menu Button'>
+      <MenuSVG />
+    </button>
 	      </div>
 	    </nav>
 	  )
