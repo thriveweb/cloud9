@@ -92,7 +92,7 @@ const MenuSVG = () => (
     width='35'
     height='25'
     viewBox='0 0 35 25'
-    xmlns='http://www.w3.org/2000/svg'>
+    xmlns='https://www.w3.org/2000/svg'>
     <g stroke='currentColor' strokeWidth='3' fill='none' fillRule='evenodd'>
       <path d='M0 2h35M0 13h26M0 23h35' />
     </g>

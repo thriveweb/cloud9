@@ -12,7 +12,7 @@ content: >-
   sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
   <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget
   tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac
-  dui. [Donec non enim](http://google.com) in turpis pulvinar facilisis. Ut
+  dui. [Donec non enim](https://google.com) in turpis pulvinar facilisis. Ut
   felis.
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import './Logo.css'
 
 export default ({ inverted }) => (
-  <svg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 327 218.1'>
+  <svg id='Layer_1' xmlns='https://www.w3.org/2000/svg' viewBox='0 0 327 218.1'>
     <path
       fill='#fff'
       className='st0'

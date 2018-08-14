@@ -15,7 +15,7 @@ bookingLink: schedule
 twitterURL: ''
 facebookURL: 'https://www.facebook.com/poweruprevolution/'
 linkedinURL: ''
-instagramURL: 'http://instagram.com'
+instagramURL: 'https://instagram.com'
 phone: ''
 email: info@cloud9altitudetraining.netlify.com
 staff: []

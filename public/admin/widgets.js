@@ -76,7 +76,7 @@ CMS.registerWidget('encode', EncodeControl)
 //   // (component gives better render performance)
 //   toPreview: function (obj) {
 //     return (
-//       '<img src="http://img.youtube.com/vi/' +
+//       '<img src="https://img.youtube.com/vi/' +
 //       obj.id +
 //       '/maxresdefault.jpg" alt="Youtube Video"/>'
 //     )

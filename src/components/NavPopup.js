@@ -47,7 +47,7 @@ const CloseSVG = () => (
     width='28'
     height='27'
     viewBox='0 0 28 27'
-    xmlns='http://www.w3.org/2000/svg'>
+    xmlns='https://www.w3.org/2000/svg'>
     <g stroke='#ffffff' strokeWidth='3' fill='none' fillRule='evenodd'>
       <path d='M2 26L27 1M2 1l25 25' />
     </g>

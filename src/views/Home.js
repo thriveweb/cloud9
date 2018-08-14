@@ -82,7 +82,7 @@ const Home = ({ page, locations, services }) => {
                   key={index + quote.testimonialFrom}
                   className='TestimonialSection--quote'>
                   <svg
-                    xmlns='http://www.w3.org/2000/svg'
+                    xmlns='https://www.w3.org/2000/svg'
                     width='160'
                     height='103'>
                     <g stroke='#000' strokeWidth='9' strokeMiterlimit='10'>
