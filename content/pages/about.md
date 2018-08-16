@@ -1,6 +1,6 @@
 ---
 title: About
-bannerImage: /images/uploads/edgestudios-128.jpg
+bannerImage: /images/uploads/background.jpg
 welcomeImage: /images/uploads/0y0a0714.jpg
 welcomeTitle: Cloud 9 Altitude Training
 welcomeQuote: Lets Get High!
