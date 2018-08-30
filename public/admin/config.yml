@@ -118,7 +118,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: "list"
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Text, name: listText, widget: string}
+              - {label: Text, name: listText, widget: markdown}
               - {label: Image, name: listImage, widget: image}
           - label: "Meta"
             required: false
