@@ -1,0 +1,28 @@
+.Benefits .section--1-content h2 {
+	margin-bottom: 5rem;
+}
+
+.Benefits .section--1-content ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.Benefits .section--1-content ul .benefit-flex {
+	margin-bottom: 3rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.Benefits .section--1-content ul li p {
+	max-width: 45%;
+}
+
+.Benefits .section--1-content ul li img {
+	max-width: 45%;
+	align-self: baseline;
+}
+
+.Benefits .section--1-content ul li .benefit-flex:nth-child(even) {
+	flex-direction: row-reverse;
+}

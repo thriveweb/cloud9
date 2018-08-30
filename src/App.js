@@ -8,6 +8,7 @@ import ScrollToTopOnMount from './components/ScrollToTopOnMount'
 import Meta from './components/Meta'
 import Home from './views/Home'
 import About from './views/About'
+import Benefits from './views/Benefits'
 import Locations from './views/Locations'
 import SingleLocation from './views/SingleLocation'
 import Contact from './views/Contact'
@@ -165,7 +166,7 @@ class App extends Component {
         <RouteWithMeta
   path='/benefits/'
 	            exact
-	            component={Default}
+	            component={Benefits}
   page={this.getDocument('pages', 'benefits')}
 	          />
         <RouteWithMeta

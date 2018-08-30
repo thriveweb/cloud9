@@ -113,7 +113,13 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Banner Image, name: bannerImage, widget: image}
-          - {label: Content, name: content, widget: markdown}
+          - label: "Content"
+            name: "content"
+            widget: "list"
+            fields:
+              - {label: Title, name: title, widget: string
+              - {label: Text, name: listText, widget: string}
+              - {label: Image, name: listImage, widget: image}
           - label: "Meta"
             required: false
             name: "meta"
