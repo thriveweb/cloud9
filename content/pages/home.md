@@ -14,12 +14,12 @@ servicesContent: >-
   workout, whilst triggering a wide variety of physiological responses and
   changes in your body.
 trainingPods:
-  - backgroundImage: /images/uploads/workout1.png
-  - backgroundImage: /images/uploads/workout2.png
-  - backgroundImage: /images/uploads/workout3.png
-  - backgroundImage: /images/uploads/workout4.png
-  - backgroundImage: /images/uploads/workout5.png
-testimonialBanner: /images/uploads/0w5a2613sml.jpg
+  - backgroundImage: /images/uploads/0y0a0747.jpg
+  - backgroundImage: /images/uploads/0y0a0673.jpg
+  - backgroundImage: /images/uploads/0y0a0635.jpg
+  - backgroundImage: /images/uploads/0y0a0732.jpg
+  - backgroundImage: /images/uploads/0y0a0693.jpg
+testimonialBanner: /images/uploads/background.jpg
 testimonialSectionTitle: what our clients say
 quotes:
   - testimonial: 'Feeling the BURN, this piece of equipment by Synergy Fitness does it all.'
