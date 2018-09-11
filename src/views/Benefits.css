@@ -23,10 +23,10 @@
 	align-self: baseline;
 }
 
-.Benefits .section--1-content ul li .benefit-flex:nth-child(even) {
+.Benefits .section--1-content ul li:nth-child(even) .benefit-flex {
 	flex-direction: row-reverse;
 }
 
-.Benefits .section--1-content ul li .benefit-flex:nth-child(odd) {
+.Benefits .section--1-content ul li:nth-child(odd) .benefit-flex {
 	flex-direction: row;
 }
