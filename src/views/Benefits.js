@@ -25,7 +25,7 @@ export default ({ page, services }) => (
             <li>
               {item.title && <h2 className='taCenter'>{item.title}</h2>}
               <div className='benefit-flex'>
-                  <Content source={item.listText} />
+                <Content source={item.listText} />
                 <img src={item.listImage} alt={page.title} />
               </div>
             </li>
