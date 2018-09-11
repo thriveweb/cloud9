@@ -23,11 +23,9 @@ export default ({ page, services }) => (
         <ul>
           {page.content.map((item, index) => (
             <li>
-              {item.title && (
-                <h2 className='taCenter'>{item.title}</h2>
-              )}
+              {item.title && <h2 className='taCenter'>{item.title}</h2>}
               <div className='benefit-flex'>
-                <p>{item.listText}</p>
+                  <Content source={item.listText} />
                 <img src={item.listImage} alt={page.title} />
               </div>
             </li>

@@ -14,7 +14,7 @@
 	justify-content: space-between;
 }
 
-.Benefits .section--1-content ul li p {
+.Benefits .section--1-content ul li .Content {
 	max-width: 45%;
 }
 
@@ -25,4 +25,8 @@
 
 .Benefits .section--1-content ul li .benefit-flex:nth-child(even) {
 	flex-direction: row-reverse;
+}
+
+.Benefits .section--1-content ul li .benefit-flex:nth-child(odd) {
+	flex-direction: row;
 }
