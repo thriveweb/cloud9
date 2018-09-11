@@ -20,13 +20,8 @@ const Home = ({ page, locations, services }) => {
             src={page.welcomeImage}
           />
           <div className='background-video'>
-            <video
-              className='video'
-              preload='true'
-              playsinline=''
-              loop
-              autoPlay
-              muted>
+            <video className='video' id='bgvid' playsInline autoPlay muted loop>
+							>
               <source
                 src='/images/uploads/welcomevideo-web.mp4'
                 type='video/mp4'
