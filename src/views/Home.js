@@ -19,11 +19,20 @@ const Home = ({ page, locations, services }) => {
             opacity='0.5'
             src={page.welcomeImage}
           />
-          {/* <div className='background-video'>
-            <video className='video' preload='true' loop autoPlay muted>
-              <source src='/images/welcomevideo-web.mp4' type='video/mp4' />
+          <div className='background-video'>
+            <video
+              className='video'
+              preload='true'
+              playsinline=''
+              loop
+              autoPlay
+              muted>
+              <source
+                src='/images/uploads/welcomevideo-web.mp4'
+                type='video/mp4'
+              />
             </video>
-          </div> */}
+          </div>
 
           <h1 className='WelcomeImage--title'> {page.title}</h1>
         </div>
@@ -99,9 +108,9 @@ const Home = ({ page, locations, services }) => {
                   <div className='TestimonialSection--thumbnailWrap'>
                     <div className='TestimonialSection--from'>
                       <BackgroundImage
-                  className='TestimonialSection--thumbnail'
-                  src={quote.testimonialThumbnail}
-                  lazy='false'
+                        className='TestimonialSection--thumbnail'
+                        src={quote.testimonialThumbnail}
+                        lazy='false'
                       />
                       <strong>{quote.testimonialFrom}</strong>
                     </div>
