@@ -14,7 +14,7 @@ content:
     title: 'Hypoxic Training for Health, Beauty and Wellness'
   - listImage: /images/uploads/0y0a0693.jpg
     listText: ''
-    - listImage: /images/uploads/0y0a0732.jpg
+  - listImage: /images/uploads/0y0a0732.jpg
     listText: ''
   - listImage: /images/uploads/0y0a0714.jpg
     listText: ''
