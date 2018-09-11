@@ -49,7 +49,7 @@ content:
 
       * Cardiac surgery rehabilitation
 
-      * nsomnia
+      * Insomnia
   - listImage: /images/uploads/0y0a0635.jpg
     listText: ''
   - listImage: /images/uploads/0y0a0747.jpg
