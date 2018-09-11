@@ -15,7 +15,7 @@ content:
   - listImage: /images/uploads/0y0a0693.jpg
     listText:
     - listImage: /images/uploads/0y0a0732.jpg
-    listText: >-
+    listText:
   - listImage: /images/uploads/0y0a0714.jpg
-    listText: >-
+    listText: 
 ---
