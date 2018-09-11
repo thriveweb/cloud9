@@ -102,9 +102,9 @@ export default ({ globalSettings, ...props }) => (
           <NavLink to={`/faq/`} exact>
 						FAQ
           </NavLink>
-          <NavLink to={`/disclaimer/`} exact>
+          {/* <NavLink to={`/disclaimer/`} exact>
 						Disclaimer
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
     </footer>
