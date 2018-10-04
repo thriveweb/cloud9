@@ -4,7 +4,7 @@ siteDescription: Power Up
 socialMediaCard:
   facebookURL: 'https://www.facebook.com/poweruprevolution/'
   image: /images/uploads/card-og.png
-  instagramURL: 'https://www.instagram.com/synergyfitnessequipment'
+  instagramURL: 'https://www.instagram.com/cloudninealtitudetraining/'
   linkedinURL: ''
   twitterCreatorAccount: Power up
   twitterSiteAccount: '@Powerup'
@@ -13,7 +13,7 @@ location:
   lng: '153.39456'
 officeAddress: ''
 phone: ''
-email: info@cloud9altitudetraining.netlify.com
+email: info@cloud9altitudetraining.com
 headerScripts: >-
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
