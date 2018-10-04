@@ -1,6 +1,5 @@
 ---
 welcomeImage: /images/uploads/background.jpg
-title: Let's Get High!
 buttons:
   - label: Book a class
     link: book now
@@ -40,4 +39,3 @@ meta:
   description: ''
   title: ''
 ---
-
