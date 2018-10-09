@@ -18,14 +18,5 @@ instagramURL: 'https://instagram.com'
 phone: ''
 email: info@cloud9altitudetraining.netlify.com
 staff: []
-bannerSectionImage: /images/uploads/0w5a2773sml.jpg
-bannerSectionTitle: Join the revolution
-bannerSectionSubtitle: Experience the Power of the Tower
-bannerSectionContent: See the schedule or select from our package options below
-bannerSectionButtons:
-  - label: See schedule
-    link: schedule
-  - label: Package options
-    link: Benefits
 order: '1'
 ---

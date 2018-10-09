@@ -43,16 +43,6 @@ export default ({ page, siteTitle, globalSettings, locations }) => (
 
           <div className='Social--container'>
             <p>Follow us</p>
-            {globalSettings.socialMediaCard.twitterSiteAccount && (
-              <Link
-                target='_blank'
-                to={`https://twitter.com/${
-                  globalSettings.socialMediaCard.twitterSiteAccount
-                }/`}
-              >
-                <img src='/images/twitter.svg' alt='twitter' />
-              </Link>
-            )}
             {globalSettings.socialMediaCard.facebookURL && (
               <Link
                 target='_blank'
