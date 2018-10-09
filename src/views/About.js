@@ -32,18 +32,6 @@ export default ({ page, services }) => (
         </div>
       </div>
 
-      <div className='container about--video'>
-        <iframe
-          src={page.aboutVideo}
-          width='640'
-          height='360'
-          frameBorder='0'
-          webkitallowfullscreen
-          mozallowfullscreen
-          allowFullScreen
-        />
-      </div>
-
       <div className='container ServicesSection--wrap'>
         <div className='TrainingPods--wrap'>
           {page.trainingPods.map((pod, index) => (
