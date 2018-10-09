@@ -10,16 +10,6 @@ export default ({ globalSettings, ...props }) => (
   <main>
     <div className='section social-links'>
       <div className='container skinny Flex justifyBetween center'>
-        {globalSettings.socialMediaCard.twitterSiteAccount && (
-          <Link
-            target='_blank'
-            to={`https://twitter.com/${
-              globalSettings.socialMediaCard.twitterSiteAccount
-            }/`}
-          >
-            <img src='/images/twitter.svg' alt='twitter' />
-          </Link>
-        )}
         {globalSettings.socialMediaCard.facebookURL && (
           <Link target='_blank' to={globalSettings.socialMediaCard.facebookURL}>
             <img src='/images/facebook.svg' alt='facebook' />
