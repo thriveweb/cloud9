@@ -31,12 +31,26 @@ export default ({ page, services }) => (
           <BackgroundImage src={page.welcomeImage} contain='contain' lazy />
         </div>
       </div>
+
+      <div className='container about--video'>
+        <iframe
+          src='https://player.vimeo.com/video/292025379'
+          width='640'
+          height='360'
+          frameBorder='0'
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowFullScreen
+        />
+      </div>
+
       <div className='container ServicesSection--wrap'>
         <div className='TrainingPods--wrap'>
           {page.trainingPods.map((pod, index) => (
             <div
               key={index + pod.backgroundImage}
-              className='TrainingPods--pod'>
+              className='TrainingPods--pod'
+            >
               <BackgroundImage src={pod.backgroundImage} contain />
             </div>
           ))}
