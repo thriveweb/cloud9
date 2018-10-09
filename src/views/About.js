@@ -34,7 +34,7 @@ export default ({ page, services }) => (
 
       <div className='container about--video'>
         <iframe
-          src='https://player.vimeo.com/video/292025379'
+          src={page.aboutVideo}
           width='640'
           height='360'
           frameBorder='0'
