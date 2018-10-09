@@ -15,23 +15,16 @@ class NavPopup extends React.Component {
         <div className='flex'>
           <div className='inner'>
             <NavLink onClick={handleClose} to='/about/' exact>
-							About
+              About
             </NavLink>
             <NavLink onClick={handleClose} to='/locations/' exact>
-							Locations
+              Locations
             </NavLink>
             <NavLink onClick={handleClose} to='/benefits/' exact>
-							Benefits
+              Benefits
             </NavLink>
             <NavLink onClick={handleClose} to='/contact/' exact>
-							Contact
-            </NavLink>
-            <NavLink
-              onClick={handleClose}
-              to='/schedule/'
-              exact
-              className='book-now button'>
-							Book now
+              Contact
             </NavLink>
           </div>
         </div>
@@ -47,7 +40,8 @@ const CloseSVG = () => (
     width='28'
     height='27'
     viewBox='0 0 28 27'
-    xmlns='https://www.w3.org/2000/svg'>
+    xmlns='https://www.w3.org/2000/svg'
+  >
     <g stroke='#ffffff' strokeWidth='3' fill='none' fillRule='evenodd'>
       <path d='M2 26L27 1M2 1l25 25' />
     </g>

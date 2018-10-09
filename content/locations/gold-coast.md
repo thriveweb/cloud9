@@ -11,7 +11,6 @@ classInfo: >-
   Irrespective of whether you are seeking endurance, power, speed, weight loss,
   or muscle building performance enhancement you will only need 30 minutes to
   energize your life.
-bookingLink: schedule
 twitterURL: ''
 facebookURL: 'https://www.facebook.com/poweruprevolution/'
 linkedinURL: ''

@@ -418,7 +418,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Latitude, name: lat, widget: number, required: false}
           - {label: Longitude, name: lng, widget: number, required: false}
       - {label: Class info, name: classInfo, widget: markdown}
-      - {label: Booking link, name: bookingLink , widget: string, required: false}
       - {label: Twitter URL, name: twitterURL, widget: string, required: false}
       - {label: Facebook URL, name: facebookURL, widget: string, required: false}
       - {label: Linkedin URL, name: linkedinURL, widget: string, required: false}
