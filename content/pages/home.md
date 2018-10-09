@@ -1,5 +1,6 @@
 ---
 welcomeImage: /images/uploads/background.jpg
+title: '>>'
 buttons:
   - label: Book a class
     link: book now
@@ -21,21 +22,12 @@ trainingPods:
 testimonialBanner: /images/uploads/background.jpg
 testimonialSectionTitle: what our clients say
 quotes:
-  - testimonial: 'Feeling the BURN, this piece of equipment by Synergy Fitness does it all.'
-    testimonialFrom: Sylvester Stallone
-    testimonialImage: /images/uploads/Sylvester-Stallone-workout.jpg
-    testimonialThumbnail: /images/uploads/Sylvester-Stallone.jpg
-  - testimonial: >-
-      What have you added NEW this summer that you have added to your workout
-      routine?
-    testimonialFrom: Paige Hathaway - Fitness and Lifestyle Expert and F45 Global Ambassador
-    testimonialImage: /images/uploads/paige-web.jpg
-    testimonialThumbnail: /images/uploads/paige-we.jpeg
-  - testimonial: You have outdone yourselves
-    testimonialFrom: Gunnar Peterson - Celebrity Trainer
-    testimonialImage: /images/uploads/gunnar-web.jpg
-    testimonialThumbnail: /images/uploads/gunnarpet.jpg
+  - testimonial: 'Simulated altitude training is a game changer '
+    testimonialFrom: Ryan Hipwood - Professional Big Wave Surfer
+    testimonialImage: /images/uploads/42068857_1896975137077546_7062346198056697856_n.jpg
+    testimonialThumbnail: /images/uploads/ryan-hoipwood.jpg
 meta:
   description: ''
   title: ''
 ---
+
