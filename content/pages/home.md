@@ -1,6 +1,6 @@
 ---
 welcomeImage: /images/uploads/background.jpg
-title: '>>'
+title: .
 buttons:
   - label: Book a class
     link: book now
