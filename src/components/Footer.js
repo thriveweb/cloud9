@@ -76,6 +76,9 @@ export default ({ globalSettings, ...props }) => (
             <NavLink to={`/membership/`} exact>
               Membership
             </NavLink>
+            <NavLink to={`/faq/`} exact>
+              FAQ
+            </NavLink>
           </div>
         </div>
       </div>
@@ -87,9 +90,6 @@ export default ({ globalSettings, ...props }) => (
           </small>
         </div>
         <div className='Flex alignCenter justifyBetween flexWrap'>
-          <NavLink to={`/faq/`} exact>
-            FAQ
-          </NavLink>
           {/* <NavLink to={`/disclaimer/`} exact>
 						Disclaimer
           </NavLink> */}
