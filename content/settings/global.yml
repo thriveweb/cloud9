@@ -1,6 +1,10 @@
 siteTitle: Cloud 9 Altitude Training
 siteUrl: 'https://cloud9altitudetraining.netlify.com'
-siteDescription: Power Up
+siteDescription: >-
+  Simulated altitude training sessions allow you to workout with much less
+  stress on your body, but at the same time enhances the effectiveness of any
+  workout, whilst triggering a wide variety of physiological responses and
+  changes in your body.
 socialMediaCard:
   facebookURL: 'https://www.facebook.com/poweruprevolution/'
   image: /images/uploads/card-og.png
@@ -18,18 +22,18 @@ headerScripts: >-
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
   <script async
-  src="https://www.googletagmanager.com/gtag/js?id=UA-112691145-28"></script>
+  src="https://www.googletagmanager.com/gtag/js?id=UA-112691145-31"></script>
 
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-112691145-28');
+    gtag('config', 'UA-112691145-31');
   </script>
 
   <meta name="msvalidate.01" content="B0112812CA622A13C327AF572E2BA5B5" />
 
   <meta name="google-site-verification"
-  content="D6XTkXDDivNK1XVHeKeYSeQc8DhBurVTF2XcrDZwZX8" />
+  content="o0jCMo7s3_z0k65DYO_xTZ5uHhJLH2dHfSrEpyrHKVM" />
 enableServiceWorker: false
