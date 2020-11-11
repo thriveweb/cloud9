@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import InstagramFeed from './InstagramFeed'
 import NavLink from './NavLink'
 
 import './Footer.css'
@@ -30,13 +29,6 @@ export default ({ globalSettings, ...props }) => (
         )}
       </div>
     </div>
-
-    {globalSettings.socialMediaCard.instagramURL && (
-      <InstagramFeed
-        instagramUrl={globalSettings.socialMediaCard.instagramURL}
-        count='10'
-      />
-    )}
 
     <footer className='Footer'>
       <div className='container mainFooter Flex justifyBetween center'>
